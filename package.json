@@ -1,0 +1,30 @@
+{
+  "name": "l-cli",
+  "version": "0.0.1",
+  "description": "l-cli package",
+  "main": "index.js",
+  "bin": {
+    "l-cli": "bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {},
+  "keywords": [
+    "l-cli"
+  ],
+  "author": "ycl",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "*",
+    "commander": "*",
+    "download-git-repo": "*",
+    "fs": "*",
+    "git-clone": "*",
+    "inquirer": "*",
+    "ora": "*",
+    "path": "*",
+    "shelljs": "^*",
+    "tracer": "*"
+  }
+}
